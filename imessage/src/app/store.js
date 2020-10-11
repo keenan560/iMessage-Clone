@@ -5,6 +5,6 @@ import chatReducer from "../features/chatSlice";
 export default configureStore({
   reducer: {
     user: userReducer,
-    char: chatReducer,
+    chat: chatReducer,
   },
 });
